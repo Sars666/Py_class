@@ -1,0 +1,27 @@
+from turtle import *
+def loop(a,b,c=2,d=2):#一阶希尔伯特曲线
+    fd(c*25)
+    rt(a*90)
+    fd(50)
+    rt(b*90)
+    fd(50)
+    lt(a*90)
+    fd(d*25)
+def loop_1():
+    loop(1,1)
+def loop_2():
+    loop(-1,-1,d=1)
+def loop_3():
+    loop(1,-1,c=1)
+def loop_4():
+    loop(-1,1)
+def loop_11():
+    loop_1()
+    loop_2()
+    loop_3()
+    loop_4()
+loop_11()
+fd(50)
+loop_11()
+
+exitonclick()
