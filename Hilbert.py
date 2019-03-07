@@ -14,8 +14,6 @@ def setrandomcolor():           #随机颜色/用radint设置255rgb模式
     colormode(255)              #浅色看不见
     color(randint(33,255),randint(33,255),randint(33,255))
 
-def setcolor(n):                #字典选色
-    color(colorChoices[(n-1)%5],colorChoices[n%5])
 
 def hb_curve(n,m):                      #m=0顺时针;m=1逆时针;
     if n == 1:                          #原点开始左上到右下,
@@ -42,17 +40,12 @@ def hb_curve(n,m):                      #m=0顺时针;m=1逆时针;
         setrandomcolor()
 #初始化
 title('希尔波特曲线') #标题
-speed(100)          #速度
+speed(0)          #速度
 max = 10            #最大阶数
 x = 600               #步长
 hideturtle()        #隐藏乌龟
 
 
-colorChoices = {0:'white',        #用字典择色
-                1:'orange',
-                2:'yellow',
-                3:'black',
-                4:'pink'}
 def reset():                    #重新设置乌龟的位置,并清除之前的图
     penup()
     setposition(-300,-300)
@@ -65,7 +58,6 @@ def init(n):
     pendown()
 
 for n in range(1,max+1):        #从1阶到max阶
-    bgcolor(colorChoices[(n-1)%5])
     x = x/2
     reset()
     init(n)
