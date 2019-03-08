@@ -14,7 +14,6 @@ randomIndex = randint(0,len(nameList)-1)
 print(randomIndex)
 name = nameList[randomIndex]
 print(name)
-name = 'hasaki'
 filename = name + '.jpg'
 #读取图片,输出rgb值与长宽
 if __name__ == '__main__':
@@ -91,7 +90,7 @@ setup(width=800, height=500)
 
 #画标题
 penup()
-setposition(20,115)
+setposition(40,115)
 write('What Is This?',font=("Arial",50,"normal"))
 home()
 pendown()
@@ -101,7 +100,7 @@ pendown()
 init()
 hilbert_curve(pic_resolution, 0)
 penup()
-setposition(20,15)
+setposition(40,15)
 pendown()
 color('black')
 write(name + '!',font=("Arial",50,"normal"))
