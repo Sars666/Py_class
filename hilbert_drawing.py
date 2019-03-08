@@ -4,11 +4,21 @@
 '''
 
 import cv2
+from random import randint
 from turtle import *
 
+#随机选取图片
+nameList = ['Pokeball','Minecraft','creeper','hasaki',
+            'heart','view']
+randomIndex = randint(0,len(nameList)-1)
+print(randomIndex)
+name = nameList[randomIndex]
+print(name)
+name = 'hasaki'
+filename = name + '.jpg'
 #读取图片,输出rgb值与长宽
 if __name__ == '__main__':
-    img = cv2.imread("unknown.jpg")
+    img = cv2.imread(filename)
     b, g, r = cv2.split(img)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
@@ -16,7 +26,8 @@ if __name__ == '__main__':
 
 #位置对应的单RGB值
 def colorIndex(color,position,picheight,picwidth,maxLength):
-    return color[picheight-int((position[1]+150)*picheight/maxLength)-1][int(position[0]*picwidth/maxLength)-1]
+    return color[picheight-int((position[1]+150)*picheight/maxLength)-1]\
+        [int((position[0]+300)*picwidth/maxLength)-1]
 
 #位置对应的RGB组
 def poscolor(r,g,b,position,picheight,picwidth,maxLength):
@@ -25,22 +36,26 @@ def poscolor(r,g,b,position,picheight,picwidth,maxLength):
                  colorIndex(b,position,picheight,picwidth,maxLength)
     return colortuple
 
-def hilbert_curve(n, m):        #用迭代绘制希尔伯特曲线
-    index=1
-    if n == 1:                  #出栈条件
-        pos = position()
-        picheight = size[0]
-        picwidth = size[1]
-        maxLength = x*(2**pic_resolution)-x
-        print(pos)
-        color(poscolor(r,g,b,pos,picheight,picwidth,maxLength))
-        fd(x)
-        lt(180 * m - 90)
-        fd(x)
-        lt(180 * m - 90)
-        fd(x)
+def setPositionColor():
+    pos = position()
+    picheight = size[0]
+    picwidth = size[1]
+    maxLength = x*(2**pic_resolution)-x
+    print(pos)
+    color(poscolor(r,g,b,pos,picheight,picwidth,maxLength))
 
-    else:                       #迭代
+#用迭代绘制希尔伯特曲线
+def hilbert_curve(n, m):
+    #出栈条件
+    if n == 1:
+        setPositionColor()
+        fd(x)
+        lt(180 * m - 90)
+        fd(x)
+        lt(180 * m - 90)
+        fd(x)
+    #迭代
+    else:
         lt(180 * m - 90)
         hilbert_curve(n - 1, 1 - m)
         lt(180 * m - 90)
@@ -59,25 +74,25 @@ def hilbert_curve(n, m):        #用迭代绘制希尔伯特曲线
 def init():
     lt(90)
     penup()
-    setposition(0,-150)
+    setposition(-300,-150)      #图片起始位置
     pendown()
 
 #初始化
-title('希尔波特曲线')     #标题
-speed(0)                #速度
-pic_resolution = 5      #分辨率对应阶数
-maxx = 320                  #最大步长
+title('希尔波特曲线')             #标题
+speed(0)                        #速度
+pic_resolution = 5              #分辨率对应阶数(增大此值可提高分辨率,但是速度极慢)
+maxx = 320                      #最大步长
 x = 320 / (2 ** pic_resolution) # 步长
-hideturtle()            #隐藏指针
-colormode(255)          #255rgb
-pensize(x)
-screensize(900, 600, "white")
-setup(width=900, height=600)
+hideturtle()                    #隐藏指针
+colormode(255)                  #255rgb
+pensize(x*1.3)
+screensize(800, 500, "white")
+setup(width=800, height=500)
 
 #画标题
 penup()
-setposition(-420,200)
-write('Poké Ball',font=("Arial",90,"normal"))
+setposition(20,115)
+write('What Is This?',font=("Arial",50,"normal"))
 home()
 pendown()
 
@@ -86,8 +101,8 @@ pendown()
 init()
 hilbert_curve(pic_resolution, 0)
 penup()
-setposition(-400,-250)
+setposition(20,15)
 pendown()
 color('black')
-write('click anywhere to exit',font=("Arial",50,"normal"))
+write(name + '!',font=("Arial",50,"normal"))
 exitonclick()
