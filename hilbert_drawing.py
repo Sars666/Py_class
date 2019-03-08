@@ -8,7 +8,7 @@ from random import randint
 from turtle import *
 
 #随机选取图片
-nameList = ['Pokeball','Minecraft','creeper','hasaki',
+nameList = ['Pokeball','Minecraft','creeper','sheild',
             'heart','view']
 randomIndex = randint(0,len(nameList)-1)
 print(randomIndex)
