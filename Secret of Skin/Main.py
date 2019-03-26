@@ -52,7 +52,7 @@ def result_sort(wordDic):
     result = [(v, k) for k, v in result]
     return result
 
-#打印结果表
+#将结果写入excel
 def input_result(result):
     global col
     rank = 1
@@ -67,7 +67,6 @@ def input_result(result):
             ws.cell(row = j+2, column = col+2).alignment = alignment
             rank += 1
     col += 4
-
 
 #去除汉字外的字符,并写入横纵坐标列表
 def get_rankAndcount(result):
@@ -115,9 +114,9 @@ plt.ylabel("count")
 plt.title("Zipf's law")
 plt.grid(True)
 plt.legend()
-#plt.show()
-ws = wb[st_name]
+plt.show()
 
+#正则匹配
 match_regex = '皮肤([^“”，。、：\s/《》]{2,3})[“”，。、：\s/《》]'
 anything = []
 for i in re.finditer(match_regex, book):
@@ -128,6 +127,8 @@ for k,v in c.most_common(20):
     result_3.append((k,v))
 
 #结果转到excel
+ws = wb[st_name]
+
 font = Font(size=16)
 alignment=Alignment(horizontal='center')
 title_font = Font(size=20, bold=True)
@@ -137,7 +138,7 @@ set_title()
 input_result(result_1)
 input_result(result_2)
 input_result(result_3)
+
 #保存工作簿
-print(ws.cell)
 wb.save(file_name)
 print('结果在excel文件中显示')
