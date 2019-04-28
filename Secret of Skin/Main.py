@@ -1,6 +1,5 @@
 import jieba
 import matplotlib.pyplot as plt
-from math import log10
 import regex as re
 from collections import Counter
 from openpyxl import load_workbook
@@ -74,9 +73,9 @@ def get_rankAndcount(result):
     count = []
     for i in result:
         if i[1] != 0:
-            count.append(log10(i[1]))
+            count.append(i[1])
     for i in range(len(count)) :
-        rank.append(log10(i+1))
+        rank.append(i+1)
     return (count,rank)
 
 #设置excel标题行
@@ -103,13 +102,9 @@ rank_2 = get_rankAndcount(result_2)[1]
 count_2 = get_rankAndcount(result_2)[0]
 
 #matplotlib画图
-plt.plot(rank_1, count_1, marker='o', mec='red', mfc='w',label="word Frequency")
-plt.plot(rank_2, count_2, marker='+', mec='blue', mfc='w',label="character Frequency")
+plt.loglog(rank_1, count_1, marker='o', mec='red', mfc='w',label="word Frequency")
+plt.loglog(rank_2, count_2, marker='+', mec='blue', mfc='w',label="character Frequency")
 plt.xlabel("rank")
-plt.xlim(-0.5,4.5)
-plt.xticks(range(5),('0','$10^1$','$10^2$','$10^3$','$10^4$'))
-plt.yticks(range(5),('0','$10^1$','$10^2$','$10^3$','$10^4$'))
-plt.ylim(-0.5,4.5)
 plt.ylabel("count")
 plt.title("Zipf's law")
 plt.grid(True)
