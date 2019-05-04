@@ -56,13 +56,13 @@ def createEmptyDir(targetDir):
 def savePhotoFromUrl(url,setName,iconName,number,head):
     targetDir = os.path.join(os.path.dirname(os.path.abspath(__file__)),filename)
     createEmptyDir(targetDir)
-    t = os.path.join(targetDir+'/'+setName+'/'+iconName+'.jpg')#文件命名
+    t = os.path.join(targetDir+'/'+setName+'/'+iconName+'.png')#文件命名
     createEmptyDir(targetDir+'/'+setName+'/')
     fw = open(t,'wb')
     r = requests.get(url)
     fw.write(r.content)
     fw.close()
-    iconNameInDir = setName+'---'+iconName+'.jpg '
+    iconNameInDir = setName+'---'+iconName+'.png '
     space = ' '* (50-len(iconNameInDir))
     print(iconNameInDir+space+'downloaded')
 

@@ -2,13 +2,970 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fa6f596-0df6-4467-a89e-b7ed30c1ae00" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/GUI_test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SciCulc/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cralwer/test1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Secret of Skin/statistics.xlsx" afterPath="$PROJECT_DIR$/Secret of Skin/statistics.xlsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cralwer/python网络爬虫.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cralwer/归档.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/Element.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/ElementMatching.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/ViewController.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/excample.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/photoWall/photoWalls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GUI/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cralwer/python网络爬虫.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/GUI/GUI_test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/airplane.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/alarm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/attachment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/award.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/bell.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/bookmark.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/brush.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/calendar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/checkmark.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/clock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/cloud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/code.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/collapse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/comment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/comments.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/compass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/crop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/cross.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/decrease.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/delete.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/desktop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/dinner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/duplicate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/enlarge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/envelope.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/expand.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/film.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/flag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/fork.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/headphone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/hourglass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/input.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/knife.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/layers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/list.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/location.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/locked.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/BigMug-icons/mail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Add.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Alarm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Announcement.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Application.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Attach.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Auction.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Bank.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Basketball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Bin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Boat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Bookmark.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Brush.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Bus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Calendar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Camera.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Cancel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Cargo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Cassette.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Character.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/City.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Clock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Cloud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Controls.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Couch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Crown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Cup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Cut.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Diskette.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Document.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Dollar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Drink.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Earth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Enter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Exit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Experiment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Female.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Fish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Flower.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Food.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Football.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Gun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Hamburger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Headphones.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Heart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Bitsies-icons/Image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/accesory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/accessory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/archery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/axe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/baggage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/camping.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/communication.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/cooking.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/direction.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/directional.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/drink.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/forest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/gun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/hook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/hygiene.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/knives.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/meat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/musical instrument.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/rural.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/shelter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/shoes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/tool.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/transport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/treasure.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/trees.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Camping-Stuff-icons/woods.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/accessory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/adornment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/alcohol.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/animal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/baker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/bakery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/calendar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/candies.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/celebration.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/childhood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/christmas tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/christmas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/clothing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/costume.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/decoration.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/drink.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/father christmas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/illumination.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/lanterns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/meal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/musical instrument.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/ornament.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/ornamental.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/present.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/ribbon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/snow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/sugar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/sweet.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Christmas-Ornaments-icons/tool.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/antenna.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/audio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/bomb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/brickwall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/bug.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/business.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/candlestick.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/chart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/clef.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/coffee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/compact.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/console.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/cookies.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/data.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/debug.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/descending.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/dome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/drop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/earth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/eject.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/element.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/elements.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/eye.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/fence.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/film.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/flatscreen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/fortress.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/frame.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/frown.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/funnel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/gun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/hand.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/html.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/pci.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/sd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Computer-and-Media-icons/usb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/arrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/battery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/bio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/butterfly.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/caution.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/coconut.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/corn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/dust.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/energy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/factory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/flower.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/flowers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/foot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/forest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/globe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/go.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/green.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/idea.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ECO-icons/leaf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/accessory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/animal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/can.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/clothing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/dead.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/desert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/dollar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/door.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/drinks.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/hat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/head.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/hearts.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/money.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/musical instrument.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/musical.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/ornamental.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/plant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/poster.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/ranch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/saloon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/shelter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/sign.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/sun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/tool.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/transport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/treasure.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/weapon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Far-West-icons/western.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/animal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/axe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/blade.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/boat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/boats.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/campfire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/camping.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/chef.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/clothing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/cook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/fish animal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/fish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/fishing boots.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/fishing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/float.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/food.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/furniture.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/head.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/lifesaver.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/net.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/pot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/row.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/sail.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/scouts.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/scuba.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/ship.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/sport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/torchlight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/transportation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/travelling.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/water.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Fishing-icons/weight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/aquaman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/avengers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/bane.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/batarang.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/batman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/bpdr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/brainiac.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/captain america.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/catwoman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/cyclops.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/daredevil.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/deadpool.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/deathstroke.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/fantastic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/flash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/gambit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/green arrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/green lantern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/hawkeye.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/hulk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/human torch.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/ironman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/joker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/karnak.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/kryptonita.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/loki.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/magneto.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/mjolnir.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/mutagen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/penguin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/punisher.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/robin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/rocketeer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/rorschach.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/scarecrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/shredder.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/silver surfer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/solar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/spawn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/spiderman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/superman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/the riddler.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/thing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/thor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/tmnt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/two face.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/venom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/wolverine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Flat-SuperHeroes-Villains-icons/xavier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/adjust.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/align.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/anchor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/android.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/angle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/arrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/arrowhead.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/arrowheads.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/asterisk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/ban.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/bar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/barcode.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/beaker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/beer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/bell.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/bookmark.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/css.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/facetime.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/html.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/instagram.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/linkedin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/linux.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/pinterest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/qr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/skype.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/u.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/x.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Font-Awesome-icons/youtube.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/avocado.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/barbecue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/beer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/bowl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/burger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/cabbage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/cheese.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/chef.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/cherries.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/chicken.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/coffee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/cooking.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/corn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/cucumber.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/dessert.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/dining.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/eggplant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/fish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/flat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/food.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/fried.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/glass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/gloves.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/gourd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/grapes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/hot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/ice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Food-icons/jar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/animal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/ball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/bandage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/basketball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/bbq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/bed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/blogging.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/camping.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/cleaning.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/climbing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/cook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/darts.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/diving.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/dumbbell.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/dumbbells.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/exercise.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/family.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/film.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/fishing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/gaming.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/garden.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/gift.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/guitar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/kite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/learning.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/meditation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/music.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/organize.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/painting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/party.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/photography.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/picnic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/pillow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/poker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/reading.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/rowing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/skating.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/sleep.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/swim.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/talk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/theatre.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/travel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/walk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Free-Time-icons/weight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Gcons-icons/airplane.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Gcons-icons/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Gcons-icons/arrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Gcons-icons/gcons.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Gcons-icons/ipod.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Gcons-icons/wi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/abacus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/airplane.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/anchor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/android.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/angle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/antenna.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/apron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/askterisk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/axe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/baby.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/balance.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/balloon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bandage.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bank.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/barcode.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/barrier.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/baseball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/basket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/basketball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bell.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/binocular.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/biscuit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bluetooth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/board.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/boat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bolt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bomb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bookcase.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bookmark.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/bread.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/brightness.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/brush.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/dna.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/ipod.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/sos.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/usb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Glyph-smarticons/wifi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/ancient scroll.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/ankh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/archeology.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/archery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/axe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/buddhism.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/ceramics.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/chinese.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/citadel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/coliseum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/compass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/costume.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/crop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/cuneiform.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/decree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/dinosaur.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/document.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/feather pen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/fight.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/film.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/fossil.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/god.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/greek.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/harp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/history.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/hourglass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/indians.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/laurel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/leonardo da vinci.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/maya pyramid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/museum.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/pharaoh.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/pillar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/place.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/pot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/return to the past.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/rocket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/romans.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/search.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/shield.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/skull.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/stone age.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/sword.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/viking ship.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/weapons.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/world map.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/world war.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/History-icons/world.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/airplane.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/anchor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/antelope.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/approve.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/baby.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/balance.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/base.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/biological.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/black.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/bucket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/budding.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/bug.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/building.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/business.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/captains.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/car.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/cargo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/cement.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/circle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/city.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/civilian.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/cloud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/cooking.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/cricket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/cross.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/cruise.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/delivery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/desktop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Humanitarian-icons/dice.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/IOS7-icons/24h.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/IOS7-icons/ipad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/IOS7-icons/jcb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/IOS7-icons/rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/IOS7-icons/skype.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/IOS7-icons/usb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/IOS7-icons/wifi.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Line-icons/linkedin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Line-icons/rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/artboard.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/at.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/attachment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/badge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/bed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/bell.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/bin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/block.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/bluetooth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/brightness.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/brush.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/bucket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/building.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/calendar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/car.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/card.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/chat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/clock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/cloud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/cmd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/collapse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/comment.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/contrast.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/cup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/cursor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/desktop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/disk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/dollar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/drawer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/drop.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/earth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/edit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/education.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/eject.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/euro.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/expand.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/eye.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/factory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/file.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/flag.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/form.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/frame.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/gift.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/glass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/grid.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Micons-icons/group.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/bio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/car.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/drinkable.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/earth.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/energy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/factory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/gas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/label.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/leaf.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/leafs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/litter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/log.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/mill.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/nature.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/recycle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/waste.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/water.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Nature-Ecology-icons/world.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/alien head.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/assistant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/atom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/board.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/brain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/bulb on fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/calculator.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/cardiogram.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/compass.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/dividers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/dna.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/earth globe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/electron.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/flask.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/gears.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/germs.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/glasses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/gloves.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/light bulb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/loupe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/magnet.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/measurer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/microscope.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/molecule.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/monitor with stats.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/monkey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/newton cradle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/observatory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/pipette.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/pulse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/radar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/radiation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/rat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/report.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/satellite.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/saturn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/science book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/scientist woman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/scientist.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/syringe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/telescope.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/thermometer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/three test tubes.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/virus.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Scientifics-Study-icons/water.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/actor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/artist.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/boat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/cleaner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/comb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/cook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/disc jokey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/doctor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/farm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/health.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/healthy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/hospital.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/job.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/labourer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/marine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/medicine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/office.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/photo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/profession.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/radio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/rescue.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/restaurant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/school.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/science.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/service.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/sing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/space.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/sport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/waitress.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/woman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/work.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/Young-Employees-Avatar-icons/young.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/angel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/balloon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/balloons.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/bear.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/bell.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/bells.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/bird.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/boot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/bow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/boy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/candle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/candles.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/candy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/castle.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/dj.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/holly.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/horns.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/house.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/moose.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/mushroom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/snowflake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/snowman.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/sock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/tree.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/christmas-icons/wreath.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/adding.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/agility.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/ball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/bar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/block.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/bomb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/bow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/chests.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/death.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/diamond.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/direction.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/gameboy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/gaming.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/gifting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/hat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/headphones.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/leave.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/lightning.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/luck.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/mouse.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/mushroom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/opening.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/players.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/playing.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/playstation.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/potion.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/quest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/revive.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/sega.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/shield.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/shooting.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/skull.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/speed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/steering.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/strength.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/tower.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/unlocking.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/computer-gaming-icons/xbox.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/atmosphere.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/atom.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/barrel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/battery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/bee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/bio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/butterfly.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/can.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/chimney.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/danger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/earthquake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/electricity.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/factory.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/farm.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/fertilizer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/firewood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/flask.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/flood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/fuel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/gasoline.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/industry.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/ladybug.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/light.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/manure.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/park.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/pine.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/pinwheel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/plant.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/plastic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/plug.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/pot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/save.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/settings.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/socket.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/trash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/wagon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/waste.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/water.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/waterfall.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/windmill.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/ecology-icons/world.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/address.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/android.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/apple.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/arrow.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/basketball.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/black.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/book.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/bubble.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/bull.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/car.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/center.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/chain.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/check.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/chrome.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/cloud.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/coding.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/cogwheel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/connection.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/copy.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/credit.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/css.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/curve.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/door.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/download.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/html.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/instagram.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/pinterest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/skype.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/u.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/xml.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-free-icons/youtube.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/cmd.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/css.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/evernote.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/html.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/instagram.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/ipad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/linkedin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/pinterest.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/qq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/rdio.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/rss.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/skype.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/icomoon-icons/youtube.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/accident.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/air.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/ambulance.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/baby.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/bolt.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/broken.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/car.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/checkered.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/crash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/disaster.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/earthquake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/elderly.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/familiar.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/family.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/finances.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/firefighter.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/glasses.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/health.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/heart rate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/heart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/house.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/insurance.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/locked.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/medical.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/moving.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/robbery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/shield.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/terrorist.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/tow truck.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/transfer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/transport.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/travel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/tsunami.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/wheelchair.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/insurance-icons/wounded.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/banknote.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/blockade.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/bubble.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/cup.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/data.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/display.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/fire.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/star.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/linecons-icons/trash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/acorn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/apples.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/autumn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/barrel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/berries.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/bread.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/cake.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/candles.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/church.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/corn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/cultures.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/cutlery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/dinner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/feathers.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/fireplace.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/firewood.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/gift.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/hat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/honey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/house.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/jam.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/lamp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/mushrooms.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/oven.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/pear.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/pie.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/porridge.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/pot.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/pumpkin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/radish.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/shotgun.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/turkey.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/umbrella.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon/thanksgiving-icons/wheat.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Py_class.iml" afterPath="$PROJECT_DIR$/.idea/Py_class.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Secret of Skin/Main.py" afterPath="$PROJECT_DIR$/Secret of Skin/Main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon.html" afterPath="$PROJECT_DIR$/cralwer/multiPageIcon.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cralwer/multiPageIcon.py" afterPath="$PROJECT_DIR$/cralwer/multiPageIcon.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cralwer/test1.py" afterPath="$PROJECT_DIR$/cralwer/test1.py" />
     </list>
     <ignored path="Py_class.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,27 +980,33 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Py_class$color_processing.coverage" NAME="color_processing Coverage Results" MODIFIED="1551944711303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Py_class$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1556420306247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
+    <SUITE FILE_PATH="coverage/Py_class$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1556879394011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
+    <SUITE FILE_PATH="coverage/Py_class$PhotoWall__1_.coverage" NAME="PhotoWall (1) Coverage Results" MODIFIED="1556885011810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/photoWall" />
     <SUITE FILE_PATH="coverage/Py_class$xxx.coverage" NAME="xxx Coverage Results" MODIFIED="1556368622581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
+    <SUITE FILE_PATH="coverage/Py_class$Data_structure.coverage" NAME="Data_structure Coverage Results" MODIFIED="1551857744395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Py_class$stand.coverage" NAME="stand Coverage Results" MODIFIED="1551612845254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Py_class$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1556285791191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
+    <SUITE FILE_PATH="coverage/Py_class$Main.coverage" NAME="Main Coverage Results" MODIFIED="1553856074115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Secret of Skin" />
+    <SUITE FILE_PATH="coverage/Py_class$multiPageIcon.coverage" NAME="multiPageIcon Coverage Results" MODIFIED="1556882999888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
+    <SUITE FILE_PATH="coverage/Py_class$hilbert_drawing.coverage" NAME="hilbert_drawing Coverage Results" MODIFIED="1552046980576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle" />
+    <SUITE FILE_PATH="coverage/Py_class$test.coverage" NAME="test Coverage Results" MODIFIED="1556526150743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/Py_class$creeper_with_hilbert.coverage" NAME="creeper_with_hilbert Coverage Results" MODIFIED="1551943070736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Py_class$ViewController.coverage" NAME="ViewController Coverage Results" MODIFIED="1556529000256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/Py_class$GUI_test.coverage" NAME="GUI_test Coverage Results" MODIFIED="1556525741392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
     <SUITE FILE_PATH="coverage/Py_class$Example.coverage" NAME="Example Coverage Results" MODIFIED="1556280894946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
     <SUITE FILE_PATH="coverage/Py_class$turtle_test.coverage" NAME="turtle_test Coverage Results" MODIFIED="1552045195131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Py_class$tyr.coverage" NAME="tyr Coverage Results" MODIFIED="1556354312052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
     <SUITE FILE_PATH="coverage/Py_class$dynamicPageImage.coverage" NAME="dynamicPageImage Coverage Results" MODIFIED="1556375850580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
-    <SUITE FILE_PATH="coverage/Py_class$Data_structure.coverage" NAME="Data_structure Coverage Results" MODIFIED="1551857744395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Py_class$Element.coverage" NAME="Element Coverage Results" MODIFIED="1556528472594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
     <SUITE FILE_PATH="coverage/Py_class$wordFrequency.coverage" NAME="wordFrequency Coverage Results" MODIFIED="1553502150896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Secret of Skin" />
+    <SUITE FILE_PATH="coverage/Py_class$PhotoWall.coverage" NAME="PhotoWall Coverage Results" MODIFIED="1556879736813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
     <SUITE FILE_PATH="coverage/Py_class$staticPageImage.coverage" NAME="staticPageImage Coverage Results" MODIFIED="1556416499757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
-    <SUITE FILE_PATH="coverage/Py_class$stand.coverage" NAME="stand Coverage Results" MODIFIED="1551612845254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Py_class$Zip_s_Law.coverage" NAME="Zip's_Law Coverage Results" MODIFIED="1553504822768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Secret of Skin" />
-    <SUITE FILE_PATH="coverage/Py_class$Analysis.coverage" NAME="Analysis Coverage Results" MODIFIED="1556285791191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
     <SUITE FILE_PATH="coverage/Py_class$regex_test.coverage" NAME="regex_test Coverage Results" MODIFIED="1553506339916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Secret of Skin" />
     <SUITE FILE_PATH="coverage/Py_class$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1553855953788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SciCulc" />
     <SUITE FILE_PATH="coverage/Py_class$Hilbert.coverage" NAME="Hilbert Coverage Results" MODIFIED="1551940245848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Py_class$Main.coverage" NAME="Main Coverage Results" MODIFIED="1553856074115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Secret of Skin" />
     <SUITE FILE_PATH="coverage/Py_class$multiPageImage.coverage" NAME="multiPageImage Coverage Results" MODIFIED="1556417530677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
-    <SUITE FILE_PATH="coverage/Py_class$multiPageIcon.coverage" NAME="multiPageIcon Coverage Results" MODIFIED="1556422600012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
-    <SUITE FILE_PATH="coverage/Py_class$hilbert_drawing.coverage" NAME="hilbert_drawing Coverage Results" MODIFIED="1552046980576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/turtle" />
-    <SUITE FILE_PATH="coverage/Py_class$test.coverage" NAME="test Coverage Results" MODIFIED="1556351075454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cralwer" />
-    <SUITE FILE_PATH="coverage/Py_class$creeper_with_hilbert.coverage" NAME="creeper_with_hilbert Coverage Results" MODIFIED="1551943070736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Py_class$photoWalls.coverage" NAME="photoWalls Coverage Results" MODIFIED="1556940474359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI/photoWall" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -54,11 +1017,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="multiPageIcon.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ElementMatching.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GUI/ElementMatching.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding>
+                <element signature="e#6#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiPageIcon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cralwer/multiPageIcon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37142858">
-              <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -66,22 +1041,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cralwer/test1.py">
+      <file leaf-file-name="photoWalls.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GUI/photoWall/photoWalls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="multiPageIcon.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cralwer/multiPageIcon.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="188.7742">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.78289473">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +1082,6 @@
         <option value="$PROJECT_DIR$/Secret of Skin/excel.py" />
         <option value="$PROJECT_DIR$/Secret of Skin/Main.py" />
         <option value="$PROJECT_DIR$/SciCulc/test.py" />
-        <option value="$PROJECT_DIR$/GUI/GUI_test.py" />
         <option value="$PROJECT_DIR$/cralwer/Example.py" />
         <option value="$PROJECT_DIR$/cralwer/Analysis.py" />
         <option value="$PROJECT_DIR$/cralwer/staticPageImage/dynamicPageImage.py" />
@@ -126,8 +1092,16 @@
         <option value="$PROJECT_DIR$/cralwer/dynamicPageImage.py" />
         <option value="$PROJECT_DIR$/cralwer/multiPageImage.py" />
         <option value="$PROJECT_DIR$/cralwer/staticPageImage.py" />
+        <option value="$PROJECT_DIR$/GUI/GUI_test.py" />
+        <option value="$PROJECT_DIR$/GUI/test.py" />
+        <option value="$PROJECT_DIR$/GUI/Game.py" />
+        <option value="$PROJECT_DIR$/GUI/ViewController.py" />
+        <option value="$PROJECT_DIR$/GUI/Element.py" />
         <option value="$PROJECT_DIR$/cralwer/test1.py" />
+        <option value="$PROJECT_DIR$/GUI/PhotoWall.py" />
         <option value="$PROJECT_DIR$/cralwer/multiPageIcon.py" />
+        <option value="$PROJECT_DIR$/GUI/photoWall/PhotoWall.py" />
+        <option value="$PROJECT_DIR$/GUI/photoWall/photoWalls.py" />
       </list>
     </option>
   </component>
@@ -190,7 +1164,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
-      <showMembers />
+      <showMembers ProjectPane="false" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -202,6 +1176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,20 +1219,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Secret of Skin" />
+              <option name="myItemId" value="GUI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7" />
+    <property name="last_opened_file_path" value="/usr/local/bin/python3.7" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
   </component>
@@ -272,29 +1246,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GUI" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.multiPageIcon">
-    <configuration default="false" name="staticPageImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.photoWalls">
+    <configuration default="false" name="PhotoWall" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cralwer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Py_class" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cralwer/staticPageImage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/PhotoWall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="dynamicPageImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -307,25 +1282,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Py_class" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cralwer/dynamicPageImage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cralwer/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="multiPageImage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="PhotoWall (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cralwer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/photoWall" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Py_class" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cralwer/multiPageImage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/photoWall/PhotoWall.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -348,20 +1323,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="photoWalls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cralwer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GUI/photoWall" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Py_class" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cralwer/test1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GUI/photoWall/photoWalls.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -560,19 +1535,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.staticPageImage" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dynamicPageImage" />
-      <item index="2" class="java.lang.String" itemvalue="Python.multiPageImage" />
+      <item index="0" class="java.lang.String" itemvalue="Python.PhotoWall" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.PhotoWall (1)" />
       <item index="3" class="java.lang.String" itemvalue="Python.multiPageIcon" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.photoWalls" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.multiPageIcon" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.multiPageImage" />
-        <item index="3" class="java.lang.String" itemvalue="Python.staticPageImage" />
-        <item index="4" class="java.lang.String" itemvalue="Python.dynamicPageImage" />
+        <item index="0" class="java.lang.String" itemvalue="Python.photoWalls" />
+        <item index="1" class="java.lang.String" itemvalue="Python.PhotoWall (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.multiPageIcon" />
+        <item index="3" class="java.lang.String" itemvalue="Python.PhotoWall" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -591,15 +1566,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14020029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29256082" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2951807" sideWeight="0.10586552" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30120483" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23557693" sideWeight="0.89413446" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -612,26 +1587,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37860578" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3090129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32868022" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -651,23 +1606,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GUI/excample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cralwer/staticPageImage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/GUI_test.py">
+    <entry file="file://$PROJECT_DIR$/GUI/excample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,16 +1767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GUI/GUI_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/urllib3/connectionpool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -860,7 +1806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="229" column="0" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,35 +1813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1290" column="0" selection-start-line="1290" selection-start-column="0" selection-end-line="1290" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cralwer/multiPageImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.555555">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cralwer/staticPageImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cralwer/multiPageIcon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="188.7742">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,7 +1820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,24 +1827,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="615" column="0" selection-start-line="615" selection-start-column="0" selection-end-line="615" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cralwer/multiPageIcon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.232245">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cralwer/staticPageImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/Element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/ViewController.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/fire.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/excample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cralwer/test1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/ElementMatching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="e#6#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cralwer/multiPageImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cralwer/multiPageIcon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37142858">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GUI/photoWall/photoWalls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78289473">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
