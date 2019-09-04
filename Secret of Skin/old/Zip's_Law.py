@@ -104,7 +104,7 @@ plt.ylabel("count")
 plt.title("Zipf's law")
 plt.grid(True)
 plt.legend()
-#plt.show()
+plt.show()
 
 match_regex = '皮肤的(.*?)'
 things = []
